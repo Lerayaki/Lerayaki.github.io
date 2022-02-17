@@ -1,0 +1,243 @@
+body {
+    max-width: 900px;
+    min-width: 745px;
+    margin: 0 auto;
+    padding: 10px;
+
+    border: 1px solid #d3d3d3;
+    border-width: 1px 1px 1px 1px;
+}
+
+/*PERSONAL INFORMATION*/
+body #top {
+    width: auto;
+    padding: 37px 20px 14px 20px;
+    background-color: #005272;
+}
+body #top #name {
+    width: auto;
+    margin: 0 auto;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+body #top #title-self {
+    width: auto;
+    margin: 0 auto;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 5px;
+}
+body #contact {
+    width: 100%;
+    margin: 0 auto;
+}
+body #top #contact table {
+    padding-top: 10px;
+    width: auto;
+    margin: 0 auto;
+
+}
+body #top #contact table tr div {
+    color: white;
+    font-size: 14px;
+    padding: 2px 10px;
+}
+body #top #contact table tr a {
+    color: white;
+    font-size: 14px;
+    padding: 2px 10px;
+    font-style: normal;
+    text-decoration: none;
+}
+body #top #contact table img {
+    max-width: 20px;
+    max-height: 20px;
+    vertical-align: middle;
+    display: inline-block;
+}
+body #top #contact table p {
+    display: inline-block;
+}
+
+
+/*WORK EXPERIENCE*/
+body #experience {
+    width: auto;
+    padding: 20px 125px 10px 25px;
+}
+body #experience #experience-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #004059;
+    margin-bottom: 15px;
+}
+body #experience .experience-item {
+    display: flex;
+    margin-bottom: 30px;
+}
+body #experience .experience-item .company-logo {
+    max-width: 200px;
+    height: 100%;
+    vertical-align: top;
+    display: inline-block;
+}
+body #experience .experience-item .company-logo img {
+    width: 75px;
+    height: 75px;
+    box-shadow: 1px 2px #eee;
+}
+body #experience .experience-item .job-details {
+    display: inline-block;
+    padding: 15px 0px 0px 10px;
+}
+body #experience .experience-item .job-details .block1 {
+    display: block;
+}
+body #experience .experience-item .job-details .block1 div {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body #experience .experience-item .job-details .job-title {
+    color: #333;
+    font-weight: bold;
+}
+body #experience .experience-item .job-details .company-name {
+    color: #555;
+    font-weight: bold;
+}
+body #experience .experience-item .job-details .block2 {
+    display: block;
+}
+body #experience .experience-item .job-details .block2 div {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #666;
+}
+body #experience .experience-item .job-details .detail-list ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #444;
+}
+body #experience .experience-item .job-details .tech {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 35px;
+    font-size: 13px;
+    color: #666;
+}
+
+
+/*EDUCATION*/
+body #education {
+    width: auto;
+    padding: 20px 125px 10px 25px;
+}
+body #education #education-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #004059;
+    margin-bottom: 15px;
+}
+body #education .education-item {
+    display: flex;
+    margin-bottom: 30px;
+}
+body #education .education-item .entity-logo {
+    max-width: 200px;
+    height: 100%;
+    vertical-align: top;
+    display: inline-block;
+}
+body #education .education-item .entity-logo img {
+    width: 75px;
+    height: 75px;
+    box-shadow: 1px 2px #eee;
+}
+body #education .education-item .education-details {
+    display: inline-block;
+    padding: 15px 0px 0px 10px;
+}
+body #education .education-item .education-details .block1 {
+    display: block;
+}
+body #education .education-item .education-details .block1 div {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body #education .education-item .education-details .degree {
+    color: #333;
+    font-weight: bold;
+}
+body #education .education-item .education-details .entity-name {
+    color: #555;
+    font-weight: bold;
+}
+body #education .education-item .education-details .block2 {
+    display: block;
+}
+body #education .education-item .education-details .block2 div {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #666;
+}
+body #education .education-item .education-details .detail-list ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #444;
+}
+
+
+/*SKILLS*/
+body #skills {
+    width: auto;
+    padding: 20px 125px 10px 25px;
+}
+body #skills #skills-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #004059;
+    margin-bottom: 15px;
+}
+body #skills #skills-content {
+    padding-left: 35px;
+}
+body #skills #skills-content .skills-section{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+}
+body #skills #skills-content ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #444;
+}
+
+
+/*LANGUAGES*/
+body #languages {
+    width: auto;
+    padding: 20px 125px 10px 25px;
+}
+body #languages #languages-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #004059;
+    margin-bottom: 15px;
+}
+body #languages li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #333;
+    font-size: 13px;
+}
