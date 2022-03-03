@@ -2,197 +2,202 @@
 <html>
     <head>
         <title>Josue Lera</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
         <script src="js/index.js"></script>
         <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
-        <!--Personal information-->
-        <div id="top">
-            <div id="name">JOSUE LERA</div>
-            <div id="title-self">Computer Engineer</div>
-            <div id="contact">
+        <div id="resume">
+            <!--Personal information-->
+            <div id="top">
+                <div id="name">JOSUE LERA</div>
+                <div id="title-self">Computer Engineer</div>
+                <div id="contact">
+                    <table>
+                        <tr>
+                            <td><div id="phone">
+                                <img src="./img/icon/phone.png" alt="Phone number">
+                                <p>(+34) 635 961 540</p>
+
+                            </div></td>
+                            <td><div id="email">
+                                <img src="./img/icon/mail.png" alt="Email">
+                                <p>josuelera@naver.com</p>
+                                
+                            </div></td>
+                            <td><div id="github">
+                                <a href="https://github.com/Lerayaki">
+                                    <img src="./img/icon/github.png" alt="Github">
+                                    <p>github.com/Lerayaki</p>
+                                </a>
+                            </div></td>
+                            <td><div id="linkedin">
+                                <a href="https://www.linkedin.com/in/josu%C3%A9-lera-73aa951b5/">
+                                    <img src="./img/icon/linkedin.png" alt="LinkedIn">
+                                    <p>josué-lera-73aa951b5</p>
+                                </a>
+                            </div></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!--Working experience-->
+            <div id="experience">
+                <div id="experience-title">WORK EXPERIENCE</div>
                 <table>
                     <tr>
-                        <td><div id="phone">
-                            <img src="img/icon/phone.png" alt="Phone number">
-                            <p>(+34) 635 961 540</p>
-
-                        </div></td>
-                        <td><div id="email">
-                            <img src="img/icon/mail.png" alt="Email">
-                            <p>josuelera@naver.com</p>
-                            
-                        </div></td>
-                        <td><div id="github">
-                            <a href="https://github.com/Lerayaki">
-                                <img src="img/icon/github.png" alt="Github">
-                                <p>github.com/Lerayaki</p>
-                            </a>
-                        </div></td>
-                        <td><div id="linkedin">
-                            <a href="https://www.linkedin.com/in/josu%C3%A9-lera-73aa951b5/">
-                                <img src="img/icon/linkedin.png" alt="LinkedIn">
-                                <p>josué-lera-73aa951b5</p>
-                            </a>
-                        </div></td>
+                        <div class="experience-item">
+                            <div class="company-logo">
+                                <a href="https://www.indracompany.com/en">
+                                    <img src="./img/logo/Indra.PNG" alt="Indra">
+                                </a>
+                            </div>
+                            <div class="job-details">
+                                <div class="block1">
+                                    <div class="job-title">Junior Engineer</div>
+                                    <div> - </div>
+                                    <div class="company-name">Indra</div>
+                                </div>
+                                <div class="block2">
+                                    <div class="location">Torrejón de Ardoz, Madrid (Spain)</div>
+                                    <div>, </div>
+                                    <div class="dates">
+                                        <div class="date-in">4/21</div>
+                                        <div> - </div>
+                                        <div class="date-out">Present</div>
+                                    </div>
+                                </div>
+                                <div class="detail-list">
+                                    <ul>
+                                        <li>Software development of GAREX 300 Air Traffic Control Voice Communication System</li>
+                                    </ul>
+                                </div>
+                                <div class="tech">(C++, Qt, Linux, OpenScap, Jira, Change)</div>
+                            </div>
+                        </div>
+                    </tr>
+                    <tr>
+                        <div class="experience-item">
+                            <div class="company-logo">
+                                <a href="https://www.gnoss.com">
+                                    <img src="./img/logo/Gnoss.PNG" alt="Gnoss">
+                                </a>
+                            </div>
+                            <div class="job-details">
+                                <div class="block1">
+                                    <div class="job-title">Intern Software Engineer</div>
+                                    <div> - </div>
+                                    <div class="company-name">Riam I+L Lab.</div>
+                                </div>
+                                <div class="block2">
+                                    <div class="location">Logroño, La Rioja (Spain)</div>
+                                    <div>, </div>
+                                    <div class="dates">
+                                        <div class="date-in">9/19</div>
+                                        <div> - </div>
+                                        <div class="date-out">6/20</div>
+                                    </div>
+                                </div>
+                                <div class="detail-list">
+                                    <ul>
+                                        <li>Built tool from the ground up to keep the dataset behind the GNOSS Sherlock NLP tool up to date and increase its information by 150%</li>
+                                        <li>Implemented migration tool for transitioning relational databases into knowledge graphs</li>
+                                        <li>Front and back-end development of the Spanish National Institute of Geography’s website </li>
+                                    </ul>
+                                </div>
+                                <div class="tech">(.NET, C#, SPARQL, SQL, HTML, CSS, JavaScript, Redis, Visual Studio)</div>
+                            </div>
+                        </div>
                     </tr>
                 </table>
             </div>
-        </div>
-        <!--Working experience-->
-        <div id="experience">
-            <div id="experience-title">WORK EXPERIENCE</div>
-            <table>
-                <tr>
-                    <div class="experience-item">
-                        <div class="company-logo">
-                            <a href="https://www.indracompany.com/en">
-                                <img src="img/logo/Indra.PNG" alt="Indra">
-                            </a>
-                        </div>
-                        <div class="job-details">
-                            <div class="block1">
-                                <div class="job-title">Junior Engineer</div>
-                                <div> - </div>
-                                <div class="company-name">Indra</div>
+            <!--Education-->
+            <div id="education">
+                <div id="education-title">EDUCATION</div>
+                <table>
+                    <tr>
+                        <div class="education-item">
+                            <div class="entity-logo">
+                                <a href="http://www.unavarra.es/home">
+                                    <img src="./img/logo/UPNA.PNG" alt="UPNA">
+                                </a>
                             </div>
-                            <div class="block2">
-                                <div class="location">Torrejón de Ardoz, Madrid (Spain)</div>
-                                <div>, </div>
-                                <div class="dates">
-                                    <div class="date-in">4/21</div>
+                            <div class="education-details">
+                                <div class="block1">
+                                    <div class="degree">B. E. in Computer Engineering</div>
                                     <div> - </div>
-                                    <div class="date-out">Present</div>
+                                    <div class="entity-name">Public University of Navarre (UPNA)</div>
+                                </div>
+                                <div class="block2">
+                                    <div class="location">Pamplona, Navarra (Spain)</div>
+                                    <div>, </div>
+                                    <div class="date-graduation">01/21</div>
+                                </div>
+                                <div class="detail-list">
+                                    <ul>
+                                        <li>Emphasis on Computation and Intelligent Systems</li>
+                                    </ul>
                                 </div>
                             </div>
-                            <div class="detail-list">
-                                <ul>
-                                    <li>Software development of GAREX 300 Air Traffic Control Voice Communication System</li>
-                                </ul>
-                            </div>
-                            <div class="tech">(C++, Qt, Linux, OpenScap, Jira, Change)</div>
                         </div>
-                    </div>
-                </tr>
-                <tr>
-                    <div class="experience-item">
-                        <div class="company-logo">
-                            <a href="https://www.gnoss.com">
-                                <img src="img/logo/Gnoss.PNG" alt="Gnoss">
-                            </a>
-                        </div>
-                        <div class="job-details">
-                            <div class="block1">
-                                <div class="job-title">Intern Software Engineer</div>
-                                <div> - </div>
-                                <div class="company-name">Riam I+L Lab.</div>
+                    </tr>
+                    <tr>
+                        <div class="education-item">
+                            <div class="entity-logo">
+                                <a href="http://en.njtu.edu.cn/">
+                                    <img src="./img/logo/BJTU.PNG" alt="BJTU">
+                                </a>
                             </div>
-                            <div class="block2">
-                                <div class="location">Logroño, La Rioja (Spain)</div>
-                                <div>, </div>
-                                <div class="dates">
-                                    <div class="date-in">9/19</div>
+                            <div class="education-details">
+                                <div class="block1">
+                                    <div class="degree">Software Engineering</div>
                                     <div> - </div>
-                                    <div class="date-out">6/20</div>
+                                    <div class="entity-name">Beijing Jiaotong University 北京交通大学 (BJTU)</div>
+                                </div>
+                                <div class="block2">
+                                    <div class="location">Haidian, Beijing (China)</div>
+                                    <div>, </div>
+                                    <div class="date-graduation">2019</div>
+                                </div>
+                                <div class="detail-list">
+                                    <ul>
+                                        <li>Software Engineering Student Exchange Program</li>
+                                    </ul>
                                 </div>
                             </div>
-                            <div class="detail-list">
-                                <ul>
-                                    <li>Built tool from the ground up to keep the dataset behind the GNOSS Sherlock NLP tool up to date and increase its information by 150%</li>
-                                    <li>Implemented migration tool for transitioning relational databases into knowledge graphs</li>
-                                    <li>Front and back-end development of the Spanish National Institute of Geography’s website </li>
-                                </ul>
-                            </div>
-                            <div class="tech">(.NET, C#, SPARQL, SQL, HTML, CSS, JavaScript, Redis, Visual Studio)</div>
                         </div>
-                    </div>
-                </tr>
-            </table>
-        </div>
-        <!--Education-->
-        <div id="education">
-            <div id="education-title">EDUCATION</div>
-            <table>
-                <tr>
-                    <div class="education-item">
-                        <div class="entity-logo">
-                            <a href="http://www.unavarra.es/home">
-                                <img src="img/logo/UPNA.PNG" alt="UPNA">
-                            </a>
-                        </div>
-                        <div class="education-details">
-                            <div class="block1">
-                                <div class="degree">B. E. in Computer Engineering</div>
-                                <div> - </div>
-                                <div class="entity-name">Public University of Navarre (UPNA)</div>
-                            </div>
-                            <div class="block2">
-                                <div class="location">Pamplona, Navarra (Spain)</div>
-                                <div>, </div>
-                                <div class="date-graduation">01/21</div>
-                            </div>
-                            <div class="detail-list">
-                                <ul>
-                                    <li>Emphasis on Computation and Intelligent Systems</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </tr>
-                <tr>
-                    <div class="education-item">
-                        <div class="entity-logo">
-                            <a href="http://en.njtu.edu.cn/">
-                                <img src="img/logo/BJTU.PNG" alt="BJTU">
-                            </a>
-                        </div>
-                        <div class="education-details">
-                            <div class="block1">
-                                <div class="degree">Software Engineering</div>
-                                <div> - </div>
-                                <div class="entity-name">Beijing Jiaotong University 北京交通大学 (BJTU)</div>
-                            </div>
-                            <div class="block2">
-                                <div class="location">Haidian, Beijing (China)</div>
-                                <div>, </div>
-                                <div class="date-graduation">2019</div>
-                            </div>
-                            <div class="detail-list">
-                                <ul>
-                                    <li>Software Engineering Student Exchange Program</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </tr>
-            </table>
-        </div>
-        <div id="skills">
-            <div id="skills-title">SKILLS</div>
-            <div id="skills-content">
-                <div class="skills-section">Technical</div>
+                    </tr>
+                </table>
+            </div>
+            <div id="skills">
+                <div id="skills-title">SKILLS</div>
+                <div id="skills-content">
+                    <div class="skills-section">Technical</div>
+                    <ul>
+                        <li>C, C#, C++, Python, Java, Matlab, HTML/CSS, JavaScript, PHP, SQL, SPARQL</li>
+                        <li>Visual Studio, .Net, Linux, Protégé, Relational and Graph Databases</li>
+                        <li>
+                            Data Structures, Computer Architecture, Machine Learning, Artificial Vision, Operating Systems<br>
+                            Algorithms, Artificial Intelligence, Computer Networks
+                        </li>
+                    </ul>
+                    <div class="skills-section">Soft</div>
+                    <ul>
+                        <li>
+                            Communication, Teamwork, Problem Solving, Analytical and Critical Thinking, Creativity, Flexibility
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="languages">
+                <div id="languages-title">LANGUAGES</div>
                 <ul>
-                    <li>C, C#, C++, Python, Java, Matlab, HTML/CSS, JavaScript, PHP, SQL, SPARQL</li>
-                    <li>Visual Studio, .Net, Linux, Protégé, Relational and Graph Databases</li>
-                    <li>
-                        Data Structures, Computer Architecture, Machine Learning, Artificial Vision, Operating Systems<br>
-                        Algorithms, Artificial Intelligence, Computer Networks
-                    </li>
-                </ul>
-                <div class="skills-section">Soft</div>
-                <ul>
-                    <li>
-                        Communication, Teamwork, Problem Solving, Analytical and Critical Thinking, Creativity, Flexibility
-                    </li>
+                    <li>Spanish (Native)</li>
+                    <li>English (C1)</li>
                 </ul>
             </div>
         </div>
-        <div id="languages">
-            <div id="languages-title">LANGUAGES</div>
-            <ul>
-                <li>Spanish (Native)</li>
-                <li>English (C1)</li>
-            </ul>
-        </div>
+
+        <button id="download">Download as PDF</button>
     </body>
 </html>
